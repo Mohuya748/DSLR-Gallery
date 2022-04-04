@@ -1,13 +1,20 @@
-import { ArrowRightIcon } from '@heroicons/react/solid';
+
 import React, { useState } from 'react';
-import About from '../About/About';
+import { useNavigate } from 'react-router-dom';
+
 import Review from '../Review/Review';
 import UseReviews from '../UseReviews/UseReviews';
 
 const Home = () => {
-    const [about, setAbout] = useState([]);
+    const navigate = useNavigate();
     const handleAbout = () => {
+        const path = `/about`;
+        navigate(path);
 
+    }
+    const handleReview = () =>{
+        const path =`/reviews`;
+        navigate(path);
     }
     const [reviews, setReviews] = UseReviews();
     return (
@@ -31,7 +38,7 @@ const Home = () => {
                   
                 </div>
                
-                <button className='text-green-600 font-bold m-5'>see more...</button>
+                <button onClick={handleReview} className='text-green-600 font-bold m-5'>see more...</button>
                
         </div>
 
