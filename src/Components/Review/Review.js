@@ -1,6 +1,6 @@
 import React from 'react';
 import './Review.css'
-import { BeakerIcon, StarIcon } from '@heroicons/react/solid'
+import { StarIcon } from '@heroicons/react/solid'
 
 
 const Review = (props) => {

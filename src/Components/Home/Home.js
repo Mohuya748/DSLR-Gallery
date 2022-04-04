@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from '@heroicons/react/solid';
 import React, { useState } from 'react';
 import About from '../About/About';
 import Review from '../Review/Review';
@@ -10,7 +11,7 @@ const Home = () => {
     }
     const [reviews, setReviews] = UseReviews();
     return (
-        <div>
+        <div className='mb-20'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-7 mx-20 mt-10'>
                 <div>
                     <h1 className='text-5xl font-bold text-slate-600'><span className='text-lime-700 bold '>MOHU'S</span> DSLR GALLERY</h1>
@@ -25,12 +26,13 @@ const Home = () => {
                 <h2 className='text-3xl text-green-700 font-bold'>Customer Reviews</h2>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5  mx-20 mt-10'>
                     {
-                        reviews.map(review => <Review review={review} key={reviews.id}></Review>)
+                        reviews.slice(0,3).map(review => <Review review={review} key={reviews.id}></Review>)
                     }
+                  
                 </div>
-
-
-            
+               
+                <button className='text-green-600 font-bold m-5'>see more...</button>
+               
         </div>
 
     );
