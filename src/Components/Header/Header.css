@@ -1,0 +1,22 @@
+.header-nav{
+    height: 50px;
+    background-color:#515f6896;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.header-nav a:hover{
+    color: black;
+    font-size: 20px;
+    transition: font-size 1s ease;
+}
+.header-nav a:active{
+    color: blueviolet;
+}
