@@ -41,7 +41,7 @@ const MyBarChart = () => {
         }
     ]
     return (
-       <BarChart width={600} height={500} data={data}>
+       <BarChart width={400} height={500} data={data}>
            <Bar dataKey={'revenue'}></Bar>
            <Bar dataKey={'investment'}></Bar>
            <XAxis dataKey='month'></XAxis>

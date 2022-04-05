@@ -41,7 +41,7 @@ const MyLineChart = () => {
         }
     ]
     return (
-       <LineChart width={600} height={500} data={data}>
+       <LineChart width={400} height={500} data={data}>
            <Line dataKey={'revenue'}></Line>
            <Line dataKey={'investment'}></Line>
            <XAxis dataKey='month'></XAxis>
