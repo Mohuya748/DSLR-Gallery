@@ -1,3 +1,12 @@
 MOHU'S DSLR GALLERY
 
-Live Site Link : https://jocular-parfait-d9e906.netlify.app/
+Live Site Link : https://dslr-gallery.netlify.app/
+
+
+ Markup : * Bullet list
+              * Home
+              * Reviews
+              * Dashboard
+              * Blogs
+              * About
+          * Bullet list item 2
