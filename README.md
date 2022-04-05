@@ -1,12 +1,11 @@
-MOHU'S DSLR GALLERY
+<h1>MOHU'S DSLR GALLERY</h1>
 
 Live Site Link : https://dslr-gallery.netlify.app/
 
 
- Markup : - 
-              - Features:
-                  - reviews showed
-                  - dashboard added
-                  - blogs added
-                  - about added
-    
+ <h1>Features</h1>
+ <li>Reviews added</li>
+ <li>Blogs added</li>
+ <li>Dashboard added</li>
+ <li>About added</li>
+                  
